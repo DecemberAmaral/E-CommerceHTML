@@ -8,7 +8,7 @@
 }
 
 :root{
-    --bg-color: var(--bg-color) white;
+    --bg-color: var(--bg-color) rgb(255, 255, 255);
     --tex-color: black;
     --main-color: Orange;
     --other-color: White;
@@ -17,7 +17,7 @@
 }
 
 body{
-   background-color: #f0f0f0;
+   background-color: #ffe6ce;
    color: var(--tex-color);
 }
 
@@ -31,6 +31,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 30px 8%;
+    background-color: #635541;
 }
 
 .logo{
@@ -72,7 +73,7 @@ header{
 }
 
 #carouselExampleFade {
-    margin-top: 25px;
+    margin: top 5px;
 }
 
 .banner h1 {
@@ -87,10 +88,52 @@ header{
 }
 
 .destaques {
-    margin-top: 70px;
-    margin-left: 40px;
+    width: 90%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 8%;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+  }
+  
+  .icone {
+    display: inline-block;
+    margin: 0 20px; 
+    text-align: center; 
+  }
+  
+  .icone-link {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #673dff; 
+    border-radius: 50%; 
+    text-align: center;
+    line-height: 100px; 
+    background-size: cover; 
+    background-position: center; 
+  }
+  
+  .icone-link:hover {
+    background-color: var(--main-color); 
+  }
+  
+  .icone span {
+    display: block;
+    margin-top: 1px; 
+  }
 nav ul {
     list-style-type: none;
     display: flex;
