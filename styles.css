@@ -9,7 +9,7 @@
 
 :root{
     --bg-color: var(--bg-color) rgb(255, 255, 255);
-    --tex-color: black;
+    --tex-color: rgb(255, 255, 255);
     --main-color: Orange;
     --other-color: White;
     --h1-font: 4rem;
@@ -133,6 +133,7 @@ header{
   .icone span {
     display: block;
     margin-top: 1px; 
+    color: black;
   }
 nav ul {
     list-style-type: none;
@@ -201,7 +202,7 @@ section.produtos {
 }
 
 footer {
-    background-color: #333;
+    background-color:#635541;
     color: #fff;
     padding: 20px;
     text-align: center;
