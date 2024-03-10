@@ -1,18 +1,78 @@
-/* Reset CSS básico para remover margens e paddings padrão */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
 }
 
-body {
-    font-family: Arial, sans-serif;
+:root{
+    --bg-color: var(--bg-color) white;
+    --tex-color: black;
+    --main-color: Orange;
+    --other-color: White;
+    --h1-font: 4rem;
+    --p-font: 1rem;
 }
 
-header {
-    background-color: #f0f0f0;
-    padding: 20px;
-    text-align: center;
+body{
+   background-color: #f0f0f0;
+   color: var(--tex-color);
+}
+
+header{
+    margin-bottom: 10px;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 8%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: var(--tex-color);
+    font-weight: bold;
+    font-size: 28px;
+}
+.logo i{
+    color: #ff930581;
+    font-size: 32px;
+    margin-right: 5px;
+}
+
+.header-icons{
+    display: flex;
+    align-items: center;
+
+}
+
+#menu{
+    font-size: 35px;
+    color: var(--tex-color);
+    z-index: 10001;
+    cursor: pointer;
+}
+
+.header-icons i{
+    margin-right: 35px;
+    font-size: 35px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.header-icons i:hover{
+    transform: translateY(-5px);
+    color: var(--main-color);
+}
+
+#carouselExampleFade {
+    margin-top: 25px;
 }
 
 .banner h1 {
@@ -24,6 +84,11 @@ header {
 .banner p {
     color: #666;
     font-size: 18px;
+}
+
+.destaques {
+    margin-top: 70px;
+    margin-left: 40px;
 }
 
 nav ul {
