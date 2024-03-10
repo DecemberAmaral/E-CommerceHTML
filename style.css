@@ -1,1 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
 
+:root{
+    --bg-color: var(--bg-color) rgb(255, 255, 255);
+    --tex-color: rgb(255, 255, 255);
+    --main-color: Orange;
+    --other-color: White;
+    --h1-font: 4rem;
+    --p-font: 1rem;
+}
+
+.custom-link {
+    text-decoration: none !important; 
+    color: var(--tex-color) !important; 
+}
+
+.custom-link:hover {
+    color: var(--main-color) !important; 
+    }
+
+body{
+   background-color: #ffe6ce !important;
+   color: var(--tex-color);
+}
+
+header{
+    margin-bottom: 10px;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 8%;
+    background-color: #635541;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: var(--tex-color) !important;
+    font-weight: bold;
+    font-size: 28px;
+}
+.logo i{
+    color: #ff930581;
+    font-size: 32px;
+    margin-right: 5px;
+}
+
+.header-icons{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+#menu{
+    font-size: 35px;
+    color: var(--tex-color);
+    z-index: 10001;
+    cursor: pointer;
+}
+
+.header-icons i{
+    margin-right: 35px;
+    font-size: 35px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.header-icons i:hover{
+    transform: translateY(-5px);
+    color: var(--main-color);
+}
+
+.navbar {
+    z-index: 1000;
+    bottom:30px;
+    right: 0px;
+    background-color: #635541;
+}
+
+.bg-search {
+    background-color: #ecf0f1; 
+}
+
+.btn-custom {
+    background-color: #635541;
+    color: #fff; 
+    border-color: var(--main-color);
+}
+
+.btn-custom:hover {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+footer {
+    background-color:#635541;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+.redes-sociais a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.redes-sociais a:hover {
+    text-decoration: underline;
+}

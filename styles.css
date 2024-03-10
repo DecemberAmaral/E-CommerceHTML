@@ -16,6 +16,15 @@
     --p-font: 1rem;
 }
 
+.custom-link {
+    text-decoration: none !important; 
+    color: var(--tex-color) !important; 
+}
+
+.custom-link:hover {
+    color: var(--main-color) !important; 
+    }
+
 body{
    background-color: #ffe6ce;
    color: var(--tex-color);
@@ -26,12 +35,13 @@ header{
     width: 100%;
     top: 0;
     right: 0;
-    z-index: 1000;
+    z-index: 1000 !important;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 30px 8%;
     background-color: #635541;
+    position: relative;
 }
 
 .logo{
@@ -40,6 +50,7 @@ header{
     color: var(--tex-color);
     font-weight: bold;
     font-size: 28px;
+    z-index: 1000 !important;
 }
 .logo i{
     color: #ff930581;
@@ -50,13 +61,13 @@ header{
 .header-icons{
     display: flex;
     align-items: center;
-
+    color: white;
 }
 
 #menu{
-    font-size: 35px;
+    font-size: 10px;
     color: var(--tex-color);
-    z-index: 10001;
+    z-index: 1000;
     cursor: pointer;
 }
 
@@ -72,20 +83,33 @@ header{
     color: var(--main-color);
 }
 
+.navbar {
+    z-index: 1000;
+    bottom:30px;
+    right: 0px;
+    background-color: #635541;
+}
+
+.bg-search {
+    background-color: #ecf0f1; 
+    right: 400px;
+}
+
+.btn-custom {
+    background-color: #635541;
+    color: #fff; 
+    border-color: var(--main-color);
+}
+
+.btn-custom:hover {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
 #carouselExampleFade {
     margin: top 5px;
 }
 
-.banner h1 {
-    color: #333;
-    font-size: 36px;
-    margin-bottom: 10px;
-}
-
-.banner p {
-    color: #666;
-    font-size: 18px;
-}
 
 .destaques {
     width: 90%;
@@ -95,10 +119,11 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px 8%;
+    padding: 5px 10%;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     list-style: none;
+    color: black;
 }
 
 .container {
@@ -108,13 +133,13 @@ header{
     height: 20vh;
   }
   
-  .icone {
+.icone {
     display: inline-block;
     margin: 0 20px; 
     text-align: center; 
   }
   
-  .icone-link {
+.icone-link {
     display: inline-block;
     width: 100px;
     height: 100px;
@@ -130,76 +155,11 @@ header{
     background-color: var(--main-color); 
   }
   
-  .icone span {
+.icone span {
     display: block;
     margin-top: 1px; 
     color: black;
   }
-nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-nav ul li {
-    margin-right: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-size: 20px;
-    transition: color 0.3s ease;
-}
-
-nav ul li a:hover {
-    color: #f00;
-}
-
-section.produtos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 40px 20px;
-}
-
-.produto {
-    margin: 20px;
-    text-align: center;
-}
-
-.produto img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
-
-.produto h2 {
-    color: #333;
-    font-size: 24px;
-}
-
-.produto .preco {
-    color: #777;
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-.produto button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.produto button:hover {
-    background-color: #0056b3;
-}
 
 footer {
     background-color:#635541;
@@ -221,3 +181,4 @@ footer p {
 .redes-sociais a:hover {
     text-decoration: underline;
 }
+
