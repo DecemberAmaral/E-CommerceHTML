@@ -35,20 +35,22 @@ header{
     width: 100%;
     top: 0;
     right: 0;
-    z-index: 1000;
+    z-index: 1000 !important;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 30px 8%;
     background-color: #635541;
+    position: relative;
 }
 
 .logo{
     display: flex;
     align-items: center;
-    color: var(--tex-color) !important;
+    color: var(--tex-color);
     font-weight: bold;
     font-size: 28px;
+    z-index: 1000 !important;
 }
 .logo i{
     color: #ff930581;
@@ -63,9 +65,9 @@ header{
 }
 
 #menu{
-    font-size: 35px;
+    font-size: 10px;
     color: var(--tex-color);
-    z-index: 10001;
+    z-index: 1000;
     cursor: pointer;
 }
 
@@ -89,18 +91,18 @@ header{
 }
 
 .bg-search {
-    background-color: #ecf0f1; 
+    background-color: #ecf0f1 !important;
 }
 
 .btn-custom {
     background-color: #635541;
-    color: #fff; 
-    border-color: var(--main-color);
+    color: #fff !important; 
+    border-color: var(--main-color) !important;
 }
 
 .btn-custom:hover {
-    background-color: var(--main-color);
-    border-color: var(--main-color);
+    background-color: var(--main-color) !important;
+    border-color: var(--main-color) !important;
 }
 
 footer {
@@ -122,4 +124,60 @@ footer p {
 
 .redes-sociais a:hover {
     text-decoration: underline;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 100%; /* Garante que o card ocupe 100% da largura da coluna */
+    max-width: 300px; /* Define a largura máxima do card */
+    left: 150px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px; /* Ajuste a altura da imagem conforme necessário */
+    object-fit:contain;/* Ajusta a imagem para preencher o espaço do card */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* Cor de fundo dos cards */
+.card {
+    background-color: #f8f9fa; /* Altere para a cor desejada */
+}
+
+/* Cor do texto dos cards */
+.card-title,
+.card-text,
+.btn-primary {
+    color: #212529; /* Altere para a cor desejada */
+}
+
+.btn-primary {
+    background-color:#635541 !important; /* Altere para a cor desejada */
+    border: orange;
+    padding: 200px;
+}
+
+.btn-primary:hover {
+    background-color: orange !important; /* Altere para a cor desejada */
+}
+
+.btn-secondary{
+    margin-left: 10px;
+    padding: -50px;
+}
+
+.row{
+    margin: 0 40px;
 }
