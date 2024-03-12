@@ -109,22 +109,6 @@ header{
     margin: top 5px;
 }
 
-
-.destaques {
-    width: 90%;
-    top: 0;
-    right: 0;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5px 10%;
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    list-style: none;
-    color: black;
-}
-
 .container {
     display: flex;
     justify-content: center;
@@ -148,6 +132,7 @@ header{
     line-height: 100px; 
     background-size: cover; 
     background-position: center; 
+    margin-top: 40px;
   }
   
   .icone-link:hover {
@@ -165,6 +150,7 @@ footer {
     color: #fff;
     padding: 20px;
     text-align: center;
+    margin-top: 30px;
 }
 
 footer p {
