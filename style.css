@@ -126,66 +126,108 @@ footer p {
     text-decoration: underline;
 }
 
-.card {
+.btn-scroll {
+    margin-right: 10px;
+    background-color: #635541 !important;
+    color: #fff !important;
     border: none;
-    border-radius: 15px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-    width: 100%; 
-    max-width: 300px; 
-    left: 50px;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none; /* Remove sublinhado */
 }
 
-.card:hover {
-    transform: translateY(-5px);
+.btn-scroll:hover {
+    background-color: orange;
 }
 
-.card-img-top {
-    height: 200px; 
-    object-fit:contain;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+.produto-section {
+    margin-bottom: 30px;
 }
 
-.card-body {
+.produto-item {
+    background-color: #fff;
+    border-radius: 5px;
     padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    max-width: 350px;
+    margin: 0 auto;
 }
 
-
-.card {
-    background-color: #f8f9fa; 
+.produto-item img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
 }
 
-
-.card-title,
-.card-text,
-.btn-primary {
-    color: #212529; 
+.produto-item p {
+    margin-bottom: 10px;
 }
 
-.btn-primary {
-    background-color:#635541 !important; 
-    border: orange;
-    padding: 200px;
+.btn-adicionar {
+    background-color: #635541 !important;
+    color: #fff !important;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+  
 }
 
-.btn-primary:hover {
+.btn-adicionar:hover {
     background-color: orange !important;
 }
 
-.btn-secondary{
-    margin-left: 10px;
-    padding: -50px;
-}
-
-.row{
-    margin: 0 40px;
+.col-12{
+    align-items: center;
 }
 
 .title1{
     background-color: #635541;
-    text-align: center;
-    padding: 10px;
     color: #fff;
-    margin-top: -30px;
+    margin-top: -30px !important;
+    text-align: center;
+    font-family: 'Poppins', sans-serif !important;
+    text-decoration: none !important;
+    list-style: none !important;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+  }
+  
+.icone {
+    display: inline-block;
+    margin: 0 20px; 
+    text-align: center; 
+  }
+  
+.icone-link {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #635541; 
+    border-radius: 50%; 
+    text-align: center;
+    line-height: 100px; 
+    background-size: cover; 
+    background-position: center; 
+  }
+  
+  .icone-link:hover {
+    background-color: var(--main-color); 
+  }
+  
+.icone span {
+    display: block;
+    margin-top: 1px; 
+    color: black;
+  }
