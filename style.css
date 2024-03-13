@@ -26,7 +26,7 @@
     }
 
 body{
-   background-color: #ffe6ce !important;
+   background-color: #fff !important;
    color: var(--tex-color);
 }
 
@@ -40,7 +40,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 30px 8%;
-    background-color: #635541;
+    background-color: #673dff ;
     position: relative;
 }
 
@@ -53,7 +53,7 @@ header{
     z-index: 1000 !important;
 }
 .logo i{
-    color: #ff930581;
+    color: orange;
     font-size: 32px;
     margin-right: 5px;
 }
@@ -87,7 +87,7 @@ header{
     z-index: 1000;
     bottom:30px;
     right: 0px;
-    background-color: #635541;
+    background-color: #673dff;
 }
 
 .bg-search {
@@ -95,7 +95,7 @@ header{
 }
 
 .btn-custom {
-    background-color: #635541;
+    background-color: #673dff;
     color: #fff !important; 
     border-color: var(--main-color) !important;
 }
@@ -106,7 +106,7 @@ header{
 }
 
 footer {
-    background-color:#635541;
+    background-color:#673dff;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -128,7 +128,7 @@ footer p {
 
 .btn-scroll {
     margin-right: 10px;
-    background-color: #635541 !important;
+    background-color: #673dff !important;
     color: #fff !important;
     border: none;
     border-radius: 5px;
@@ -147,7 +147,7 @@ footer p {
 }
 
 .produto-item {
-    background-color: #ffe6ce;
+    background-color: #fff;
     border-radius: 5px;
     padding: 20px;
     text-align: center;
@@ -169,7 +169,7 @@ footer p {
 }
 
 .btn-adicionar {
-    background-color: #635541 !important;
+    background-color: #673dff !important;
     color: #fff !important;
     border: none;
     border-radius: 5px;
@@ -188,11 +188,10 @@ footer p {
 }
 
 .title1{
-    background-color: #635541;
+    background-color: #673dff;
     color: #fff;
     margin-top: -30px !important;
     text-align: center;
-    font-family: 'Poppins', sans-serif !important;
     text-decoration: none !important;
     list-style: none !important;
 }
@@ -214,7 +213,7 @@ footer p {
     display: inline-block;
     width: 100px;
     height: 100px;
-    background-color: #635541; 
+    background-color: #673dff; 
     border-radius: 50%; 
     text-align: center;
     line-height: 100px; 

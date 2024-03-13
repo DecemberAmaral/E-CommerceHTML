@@ -26,7 +26,7 @@
     }
 
 body{
-   background-color: #ffe6ce;
+   background-color: #fff;
    color: var(--tex-color);
 }
 
@@ -40,7 +40,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 30px 8%;
-    background-color: #635541;
+    background-color: #673dff;
     position: relative;
 }
 
@@ -53,7 +53,7 @@ header{
     z-index: 1000 !important;
 }
 .logo i{
-    color: #ff930581;
+    color: orange;
     font-size: 32px;
     margin-right: 5px;
 }
@@ -87,7 +87,7 @@ header{
     z-index: 1000;
     bottom:30px;
     right: 0px;
-    background-color: #635541;
+    background-color: #673dff;
 }
 
 .bg-search {
@@ -95,7 +95,7 @@ header{
 }
 
 .btn-custom {
-    background-color: #635541;
+    background-color: #673dff;
     color: #fff; 
     border-color: var(--main-color);
 }
@@ -146,7 +146,7 @@ header{
   }
 
 footer {
-    background-color:#635541;
+    background-color:#673dff;
     color: #fff;
     padding: 20px;
     text-align: center;
