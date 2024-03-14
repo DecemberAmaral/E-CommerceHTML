@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --bg-color: var(--bg-color) rgb(255, 255, 255);
+    --tex-color: rgb(255, 255, 255);
+    --main-color: Orange;
+    --other-color: White;
+    --h1-font: 4rem;
+    --p-font: 1rem;
+}
+
+.custom-link {
+    text-decoration: none !important; 
+    color: var(--tex-color) !important; 
+}
+
+.custom-link:hover {
+    color: var(--main-color) !important; 
+    }
+
+body{
+   background-color: #fff !important;
+   color: var(--tex-color);
+}
+
+header{
+    margin-bottom: 10px;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000 !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 8%;
+    background-color: rgb(255, 61, 213) ;
+    position: relative;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: var(--tex-color);
+    font-weight: bold;
+    font-size: 28px;
+    z-index: 1000 !important;
+}
+.logo i{
+    color: orange;
+    font-size: 32px;
+    margin-right: 5px;
+}
+
+.header-icons{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+#menu{
+    font-size: 10px;
+    color: var(--tex-color);
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.header-icons i{
+    margin-right: 35px;
+    font-size: 35px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.header-icons i:hover{
+    transform: translateY(-5px);
+    color: var(--main-color);
+}
+
+.navbar {
+    z-index: 1000;
+    bottom:30px;
+    right: 0px;
+    background-color: rgb(255, 61, 213);
+}
+
+.bg-search {
+    background-color: #ecf0f1 !important;
+}
+
+.btn-custom {
+    background-color: rgb(255, 61, 213);
+    color: #fff !important; 
+    border-color: var(--main-color) !important;
+}
+
+.btn-custom:hover {
+    background-color: var(--main-color) !important;
+    border-color: var(--main-color) !important;
+}
+
+footer {
+    background-color: rgb(255, 61, 213);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+.redes-sociais a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.redes-sociais a:hover {
+    text-decoration: underline;
+}
+
+.btn-scroll {
+    margin-right: 10px;
+    background-color:  rgb(255, 61, 213) !important;
+    color: #fff !important;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none; /* Remove sublinhado */
+    margin-bottom: 25px;
+}
+
+.btn-scroll:hover {
+    background-color: orange !important;
+}
+
+.produto-section {
+    margin-bottom: 30px;
+}
+
+.produto-item {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.produto-item img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.produto-item p {
+    margin-bottom: 10px;
+}
+
+.btn-adicionar {
+    background-color:  rgb(255, 61, 213) !important;
+    color: #fff !important;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+  
+}
+
+.btn-adicionar:hover {
+    background-color: orange !important;
+}
+
+.col-12{
+    align-items: center;
+}
+
+.title1{
+    background-color: rgb(255, 61, 213);
+    color: #fff;
+    margin-top: -30px !important;
+    text-align: center;
+    text-decoration: none !important;
+    list-style: none !important;
+    transform: translateY(-5px);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+  }
+  
+.icone {
+    display: inline-block;
+    margin: 0 20px; 
+    text-align: center; 
+  }
+  
+.icone-link {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color:  rgb(255, 61, 213); 
+    border-radius: 50%; 
+    text-align: center;
+    line-height: 100px; 
+    background-size: cover; 
+    background-position: center; 
+    margin-top: 10px;
+  }
+  
+  .icone-link:hover {
+    background-color: var(--main-color); 
+  }
+  
+.icone span {
+    display: block;
+    margin-top: 1px; 
+    color: black;
+  }
+
+.title2{
+    margin-top: -30px !important;
+    text-align: center;
+    text-decoration: none !important;
+    list-style: none !important;
+}
