@@ -196,12 +196,30 @@ form button {
     padding: 10px;
     border: none;
     background-color: var(--main-color);
-    color: #fff;
+    color: #fff !important;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 form button:hover {
-    background-color: var(--other-color);
+    background-color: orange !important;
+}
+
+.label{
+    color: black;
+}
+
+form h1,
+form p,
+form label {
+    color: #333; 
+}
+
+.container h1 {
+    color: #333; /* Cor do texto "Entre em Contato" */
+}
+
+.container p {
+    color: #555; /* Cor do texto da descrição */
 }
