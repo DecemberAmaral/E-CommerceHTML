@@ -136,10 +136,11 @@ footer p {
     font-size: 16px;
     cursor: pointer;
     text-decoration: none; /* Remove sublinhado */
+    margin-bottom: 25px;
 }
 
 .btn-scroll:hover {
-    background-color: orange;
+    background-color: orange !important;
 }
 
 .produto-section {
@@ -194,6 +195,7 @@ footer p {
     text-align: center;
     text-decoration: none !important;
     list-style: none !important;
+    transform: translateY(-5px);
 }
 
 .container {
@@ -219,6 +221,7 @@ footer p {
     line-height: 100px; 
     background-size: cover; 
     background-position: center; 
+    margin-top: 10px;
   }
   
   .icone-link:hover {
