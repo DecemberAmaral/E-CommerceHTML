@@ -53,7 +53,7 @@ header{
     z-index: 1000 !important;
 }
 .logo i{
-    color: orange;
+    color: var(--main-color);
     font-size: 32px;
     margin-right: 5px;
 }
@@ -140,7 +140,7 @@ footer p {
 }
 
 .btn-scroll:hover {
-    background-color: orange !important;
+    background-color: var(--main-color) !important;
 }
 
 .produto-section {
@@ -186,7 +186,7 @@ footer p {
 }
 
 .btn-adicionar:hover {
-    background-color: orange !important;
+    background-color: var(--main-color) !important;
 }
 
 .col-12{
