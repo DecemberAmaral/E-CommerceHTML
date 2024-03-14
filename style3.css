@@ -157,13 +157,16 @@ footer p {
     max-width: 350px;
     margin: 0 auto;
 }
-
 .produto-item img {
-    max-width: 80%;
-    height: auto;
+    max-width: 100%;
+    height: 350px;
+    width: 350px;
     border-radius: 5px;
-    margin-bottom: 15px;
+    object-fit: contain;
+    margin-bottom: 0px;
+    cursor: pointer;
 }
+
 
 .produto-item p {
     margin-bottom: 10px;
