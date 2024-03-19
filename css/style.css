@@ -248,3 +248,47 @@ footer p {
     text-decoration: none !important;
     list-style: none !important;
 }
+
+.headerdos{
+    margin-bottom: 10px;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000 !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 8%;
+    background-color: var(--other-colorf);
+    position: relative;
+}
+
+.btn-scroll2 {
+    margin-right: 10px;
+    background-color: var(--other-colorf) !important;
+    color: var(--tex-color) !important;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none; /* Remove sublinhado */
+    margin-bottom: 25px;
+}
+
+.titlef{
+    background-color: var(--other-colorf);
+    color: var(--tex-color);
+    margin-top: -30px !important;
+    text-align: center;
+    text-decoration: none !important;
+    list-style: none !important;
+    transform: translateY(-5px);
+}
+
+.navbar {
+    z-index: 1000;
+    bottom:30px;
+    right: 0px;
+    background-color: var(--other-color);
+}
