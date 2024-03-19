@@ -11,9 +11,12 @@
     --bg-color: var(--bg-color) rgb(255, 255, 255);
     --tex-color: rgb(255, 255, 255);
     --main-color: Orange;
-    --other-color: White;
+    --other-color: #673dff;
     --h1-font: 4rem;
     --p-font: 1rem;
+    --other-colorf: #ff60e4;
+    --other-colori: #5cf4ff;
+    --black-color: #000;
 }
 
 .custom-link {
@@ -26,7 +29,7 @@
     }
 
 body{
-   background-color: #fff !important;
+   background-color: var(--bg-color) !important;
    color: var(--tex-color);
 }
 
@@ -40,7 +43,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 30px 8%;
-    background-color: #673dff ;
+    background-color: var(--other-color) ;
     position: relative;
 }
 
@@ -61,7 +64,7 @@ header{
 .header-icons{
     display: flex;
     align-items: center;
-    color: white;
+    color: var(--tex-color);
 }
 
 #menu{
@@ -87,16 +90,16 @@ header{
     z-index: 1000;
     bottom:30px;
     right: 0px;
-    background-color: #673dff;
+    background-color: var(--other-color);
 }
 
 .bg-search {
-    background-color: #ecf0f1 !important;
+    background-color: var(--tex-color) !important;
 }
 
 .btn-custom {
-    background-color: #673dff;
-    color: #fff !important; 
+    background-color: var(--other-color);
+    color: var(--tex-color) !important; 
     border-color: var(--main-color) !important;
 }
 
@@ -106,8 +109,8 @@ header{
 }
 
 footer {
-    background-color:#673dff;
-    color: #fff;
+    background-color:var(--other-color);
+    color: var(--tex-color);
     padding: 20px;
     text-align: center;
 }
@@ -117,7 +120,7 @@ footer p {
 }
 
 .redes-sociais a {
-    color: #fff;
+    color: var(--tex-color);
     text-decoration: none;
     margin: 0 10px;
 }
@@ -128,8 +131,8 @@ footer p {
 
 .btn-scroll {
     margin-right: 10px;
-    background-color: #673dff !important;
-    color: #fff !important;
+    background-color: var(--other-color) !important;
+    color: var(--tex-color) !important;
     border: none;
     border-radius: 5px;
     padding: 8px 15px;
@@ -149,11 +152,11 @@ footer p {
 
 
 .produto-item {
-    background-color: #fff;
+    background-color: var(--bg-color);
     border-radius: 5px;
     padding: 20px;
     text-align: center;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 10px var(--black-color);
     transition: all 0.3s ease;
     max-width: 350px;
     margin: 0 auto;
@@ -175,8 +178,8 @@ footer p {
 }
 
 .btn-adicionar {
-    background-color: #673dff !important;
-    color: #fff !important;
+    background-color: var(--other-color) !important;
+    color: var(--tex-color) !important;
     border: none;
     border-radius: 5px;
     padding: 8px 15px;
@@ -194,8 +197,8 @@ footer p {
 }
 
 .title1{
-    background-color: #673dff;
-    color: #fff;
+    background-color: var(--other-color);
+    color: var(--tex-color);
     margin-top: -30px !important;
     text-align: center;
     text-decoration: none !important;
@@ -220,7 +223,7 @@ footer p {
     display: inline-block;
     width: 100px;
     height: 100px;
-    background-color: #673dff; 
+    background-color: var(--other-color); 
     border-radius: 50%; 
     text-align: center;
     line-height: 100px; 
@@ -236,7 +239,7 @@ footer p {
 .icone span {
     display: block;
     margin-top: 1px; 
-    color: black;
+    color: var(--black-color);
   }
 
 .title2{
